@@ -29,8 +29,9 @@ namespace firstTaskNet {
       string stringNumber;
       char attachedDigit;
       if (number < 100) {
-        Console.WriteLine("Too short number. Press any button to exit");
-        Console.ReadKey();
+        Console.WriteLine("Too short number. Enter this number again");
+        number = Convert.ToInt32(Console.ReadLine());
+        AddDigitToTheNumber(number);
       } else {
         stringNumber = number.ToString();
         attachedDigit = stringNumber[1];
