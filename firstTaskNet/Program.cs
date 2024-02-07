@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace firstTaskNet {
+namespace FirstTaskNet {
+
   internal class Program {
+
     static void Degree(int number) {
 
       int tempNumber = 0;
@@ -42,6 +44,7 @@ namespace firstTaskNet {
       }
 
     }
+
     static void Main(string[] args) {
       int mainNumber = 0;
       char selection = ' ';
